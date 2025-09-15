@@ -1,9 +1,11 @@
-1+2
-3/2.4
-3*9
+print(1+2)
+print(3/2.4)
+print(3*9)
+
 a=1
 b=2
-a+b
+print(a+b)
+
 C = "Python"
 print(C)
 
@@ -22,4 +24,4 @@ while i < 3:
 def add(e, f):
     return e + f
 
-add(3, 4)
+print(add(3, 4))
