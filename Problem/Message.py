@@ -88,3 +88,20 @@ upper = "hi"
 print(upper.upper())
 lower = "HI"
 print(lower.lower())
+
+df = " hi "
+print(df.lstrip())
+print(df.rstrip())
+print(df.strip())
+
+sprint = "Life is too short"
+print(sprint.replace("Life", "Your leg"))
+print(sprint.replace("short", "long"))
+
+split = "Life is too short"
+print(split.split())
+
+split2 = "a:b:c:d"
+print(split2.split(':'))
+print(split2.split(' ', 2))
+
