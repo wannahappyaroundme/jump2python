@@ -41,5 +41,21 @@ bb = [4, 5, 6]
 
 print(aa + bb)
 print(aa*3)
-
 print(len(aa))
+print(str(aa[2])+"hi")
+
+aa[2] = 4
+
+print(aa)
+
+aa = [1, 2, 3]
+
+del aa[1]
+
+print(aa)
+
+aaa = [1, 2, 3, 4, 5]
+
+del aaa[2:]
+
+print(aaa)
