@@ -59,3 +59,11 @@ aaa = [1, 2, 3, 4, 5]
 del aaa[2:]
 
 print(aaa)
+
+aa.append(4)
+print(aa)
+
+bb = [1, 4, 3, 2]
+bb.sort()
+
+print(bb)
