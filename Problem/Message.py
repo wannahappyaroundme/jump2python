@@ -67,3 +67,24 @@ y = 3.42134234
 print("{0:0.4f}".format(y))
 print("{0:10.4f}".format(y))
 print("{{and}}".format())
+
+name = "홍길동"
+age = 30
+print(f"나의 이름은 {name}입니다. 나이는 {age}입니다.")
+print(f"나의 이름은 {name}입니다. 나이는 {age+1}입니다.")
+print(f"나는 내년이면 {age+1}살이 된다.")
+
+print(f'{"python":!^12}')
+
+count = "hobby"
+print(count.count('b'))
+
+find = "Python is the best choice"
+print(find.find('b'))
+print(find.find('k'))
+print(find.index('b'))
+
+upper = "hi"
+print(upper.upper())
+lower = "HI"
+print(lower.lower())
