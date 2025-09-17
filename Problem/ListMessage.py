@@ -67,3 +67,28 @@ bb = [1, 4, 3, 2]
 bb.sort()
 
 print(bb)
+
+a = ['a', 'c', 'b']
+a.sort()
+
+print(a)
+
+cc = [1, 2, 5, 3]
+
+print(cc.index(3))
+print(cc.index(2))
+
+dd = [1, 2, 3]
+dd.insert(0, 4)
+print(dd)
+
+ff = [1, 2, 3, 1, 2, 3]
+ff.remove(3)
+print(ff)
+
+gg = [1, 2, 3]
+gg.pop(1)
+print(gg)
+
+vv = [1, 2, 3, 1]
+print(vv.count(1))
