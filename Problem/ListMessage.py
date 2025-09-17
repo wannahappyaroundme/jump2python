@@ -92,3 +92,11 @@ print(gg)
 
 vv = [1, 2, 3, 1]
 print(vv.count(1))
+
+rr = [1, 2, 3]
+rr.extend([4, 5])
+print(rr)
+
+tt = [6, 7]
+rr.extend(tt)
+print(rr)
