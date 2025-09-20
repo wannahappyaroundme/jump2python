@@ -31,3 +31,10 @@ print(pin[7:8])
 d = "a:b:c:d"
 e = d.replace(":", "#")
 print(e)
+
+# Q5
+
+f = [1, 3, 5, 4, 2]
+f.sort()
+f.reverse()
+print(f)
