@@ -65,3 +65,9 @@ def print_kwargs(**kwargs):
     
 print_kwargs(a=1)
 print_kwargs(name='foo', age=3)
+
+def add_and_mul(a, b):
+    return a+b, a*b
+
+result4 = add_and_mul(3, 4)
+print(result4)
