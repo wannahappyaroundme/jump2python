@@ -54,3 +54,8 @@ h = h +(4,)
 print(h)
 
 # Q9
+
+j = dict()
+print(j)
+
+#
