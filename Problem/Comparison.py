@@ -39,3 +39,22 @@ else:
     print("버스를 타고 가라")
     
 # 아무것도 실행을 안 하고 싶을 떄는 "pass" 를 사용하자
+
+pocket2 = ['paper', 'cellphone']
+card = True
+if 'money' in pocket:
+    print("택시를 타고 가라")
+else:
+    if card:
+        print("택시를 타고 가라")
+    else:
+        print("걸어가라")
+
+pocket3 = ['paper', 'cellphone']
+card = True
+if 'money' in pocket:
+    print("택시를 타고 가라")
+elif card:
+    print("택시를 타고 가라")
+else:
+    print("걸어가라")
