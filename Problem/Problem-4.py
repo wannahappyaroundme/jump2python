@@ -32,3 +32,11 @@ print("두 수의 합은 %s입니다." %total)
 # Q5
 
 # open으로 열 경우에는 무조건 close로 닫아줘야 한다.
+
+# Q6
+
+user_input = input("저장할 내용을 입력하세요:")
+f = open('test.txt', 'a')
+f.write(user_input)
+f.write('\n')
+f.close()
