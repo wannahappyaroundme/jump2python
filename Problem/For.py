@@ -16,3 +16,13 @@ add = 0
 for i in range(1, 11):
     add = add + i
 print(add)
+
+add2 = 0
+for i in range(1, 101):
+    add2 = add2 + i
+print(add2)
+
+for i in range(2, 10):
+    for j in range(1, 10):
+        print(i*j, end = "")
+    print('')
