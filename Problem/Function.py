@@ -59,3 +59,9 @@ print(result2)
 
 result3 = add_mul('mul', 1, 2, 3, 4, 5)
 print(result3)
+
+def print_kwargs(**kwargs):
+    print(kwargs)
+    
+print_kwargs(a=1)
+print_kwargs(name='foo', age=3)
