@@ -29,3 +29,6 @@ for k in dic.keys():
     
 list(dic.keys())
 print(list(dic.keys()))
+
+dic.items()
+print(dic.items())
