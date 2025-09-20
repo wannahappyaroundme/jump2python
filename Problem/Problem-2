@@ -47,4 +47,10 @@ g = ["Life", "is", "too", "short"]
 result = " ".join(g)
 print(result)
 
-# q
+# Q8
+
+h = (1, 2, 3)
+h = h +(4,)
+print(h)
+
+# Q9
