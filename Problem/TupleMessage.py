@@ -8,3 +8,8 @@ print(t3)
 t4 = t2 * 3
 print(t4)
 print(len(t1))
+
+a = (1, 2, 3)
+b = (4, )
+c = a + b
+print(c)
