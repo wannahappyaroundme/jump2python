@@ -27,3 +27,15 @@ while money:
     if coffee == 0:
         print("커피가 다 떨어졌습니다. 판매를 중지합니다.")
         break
+    
+a = 0
+while a < 10:
+    a = a + 1
+    if a % 2 == 0: continue
+    print(a)
+    
+b = 0
+while b < 10:
+    b = b + 1
+    if b % 3 == 0: continue
+    print(b)
