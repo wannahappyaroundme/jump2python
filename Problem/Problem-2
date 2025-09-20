@@ -71,3 +71,9 @@ n = [1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5]
 nSet = set(n)
 m = list(nSet)
 print(m)
+
+# Q12
+
+r = y = [1, 2, 3]
+r[1] = 4
+print(y)
