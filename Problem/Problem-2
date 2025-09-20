@@ -58,4 +58,9 @@ print(h)
 j = dict()
 print(j)
 
-#
+# Q10
+
+k = {'A' : 90, 'B' : 80, 'C' : 70}
+result = k.pop('B')
+print(k)
+print(result)
