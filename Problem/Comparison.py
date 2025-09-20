@@ -19,3 +19,5 @@ if money>=3000 or card:
 else:
     print("걸어가라")
     
+print(1 in [1, 2, 3])
+print(1 not in [1, 2, 3])
