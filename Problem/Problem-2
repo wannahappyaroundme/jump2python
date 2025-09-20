@@ -64,3 +64,10 @@ k = {'A' : 90, 'B' : 80, 'C' : 70}
 result = k.pop('B')
 print(k)
 print(result)
+
+# Q11
+
+n = [1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5]
+nSet = set(n)
+m = list(nSet)
+print(m)
