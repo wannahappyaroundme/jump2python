@@ -26,3 +26,6 @@ print(dic.keys())
 
 for k in dic.keys():
     print(k)
+    
+list(dic.keys())
+print(list(dic.keys()))
