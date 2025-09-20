@@ -71,3 +71,7 @@ def add_and_mul(a, b):
 
 result4 = add_and_mul(3, 4)
 print(result4)
+
+result5, result6 = add_and_mul(3, 4)
+print(result5)
+print(result6)
