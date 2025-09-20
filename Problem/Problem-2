@@ -29,3 +29,5 @@ print(pin[7:8])
 # Q4
 
 d = "a:b:c:d"
+e = d.replace(":", "#")
+print(e)
