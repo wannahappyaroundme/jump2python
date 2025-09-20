@@ -40,3 +40,13 @@ f = open('test.txt', 'a')
 f.write(user_input)
 f.write('\n')
 f.close()
+
+# Q7
+
+f = open('test.txt', 'r')
+body = f.read()
+f.close()
+body = body.replace("java", "python")
+f = open('test.txt', 'w')
+f.write(body)
+f.close()
