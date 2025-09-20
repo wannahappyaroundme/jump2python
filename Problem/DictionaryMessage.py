@@ -35,3 +35,15 @@ print(dic.items())
 
 dic.clear()
 print(dic)
+
+dic = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
+print(dic.get('name'))
+print(dic.get('phone'))
+print(dic.get('birth'))
+print(dic.get('nokey')) # None
+
+print('name' in dic) # True
+print('email' in dic) # False
+
+dictionary = {'name' : '홍길동', 'birth' : '1128', 'age' : 30}
+print(dictionary)
