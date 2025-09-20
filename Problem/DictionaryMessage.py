@@ -32,3 +32,6 @@ print(list(dic.keys()))
 
 dic.items()
 print(dic.items())
+
+dic.clear()
+print(dic)
