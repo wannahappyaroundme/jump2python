@@ -57,3 +57,20 @@ print(c.mul())
 print(c.sub())
 print(c.div())
 print(c.pow())
+
+d = SafeFourCal(4, 0)
+print(d.div())
+
+class Family:
+    lastname = "김"
+    
+print(Family.lastname)
+
+a = Family()
+b = Family()
+print(a.lastname)
+print(b.lastname)
+
+Family.lastname = "박"
+print(a.lastname)
+print(b.lastname)
