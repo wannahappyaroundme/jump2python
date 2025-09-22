@@ -16,3 +16,6 @@ print(7//3)
 print(7%3)
 for i, name in enumerate(['body', 'foo', 'bar']):
     print(i, name)
+print(eval('1 + 2'))
+print(eval("'hi' + 'a'"))
+print(eval('divmod(4, 3)'))
