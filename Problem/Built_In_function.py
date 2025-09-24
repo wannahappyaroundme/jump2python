@@ -21,3 +21,9 @@ print(eval("'hi' + 'a'"))
 print(eval('divmod(4, 3)'))
 print(hex(234))
 print(hex(3))
+
+aa = 3
+print(id(3))
+print(id(aa))
+bb = aa
+print(id(bb))
