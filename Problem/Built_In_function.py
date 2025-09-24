@@ -19,3 +19,5 @@ for i, name in enumerate(['body', 'foo', 'bar']):
 print(eval('1 + 2'))
 print(eval("'hi' + 'a'"))
 print(eval('divmod(4, 3)'))
+print(hex(234))
+print(hex(3))
