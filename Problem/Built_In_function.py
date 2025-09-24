@@ -85,3 +85,7 @@ print(round(4.6))
 print(round(4.2))
 print(round(5.678, 2))
 
+print(sorted([3, 1, 2]))
+print(sorted(['a', 'c', 'b']))
+print(sorted("zero"))
+print(sorted((3, 2, 1)))
