@@ -50,3 +50,6 @@ print(isinstance(dge, Person))
 print(len("python"))
 print(len([1, 2, 3]))
 print(len((1, 'a')))
+
+print(list("python"))
+print(list((1, 2, 3)))
