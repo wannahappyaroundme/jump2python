@@ -92,3 +92,14 @@ print(sorted((3, 2, 1)))
 
 print(str(3))
 print(str('hi'))
+
+print(sum([1, 2, 3]))
+print(sum((4, 5, 6)))
+
+print(tuple("abc"))
+print(tuple([1, 2, 3]))
+print(tuple((1, 2, 3)))
+
+print(type("abc"))
+print(type([]))
+print(type(open("test", 'w')))
