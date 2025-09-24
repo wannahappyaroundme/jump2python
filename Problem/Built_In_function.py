@@ -57,3 +57,9 @@ print(list((1, 2, 3)))
 ccc = [1, 2, 3, 4]
 ddd = list(ccc)
 print(ddd)
+
+print(max[1, 2, 3])
+print(max("python"))
+
+print(min([1, 2, 3]))
+print(min("python"))
