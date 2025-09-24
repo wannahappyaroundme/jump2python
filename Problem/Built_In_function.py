@@ -27,3 +27,9 @@ print(id(3))
 print(id(aa))
 bb = aa
 print(id(bb))
+
+aaa = input()
+print(aaa)
+
+bbb = input("Enter: ")
+print(bbb)
