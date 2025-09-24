@@ -63,3 +63,10 @@ print(max("python"))
 
 print(min([1, 2, 3]))
 print(min("python"))
+
+print(oct(34))
+print(oct(12345))
+
+# 바이너리 모드로 읽기 b = 바이너리 / r = 읽기 / w = 쓰기 / a = 추가모드
+# f= open("binary_file", "rb")
+
