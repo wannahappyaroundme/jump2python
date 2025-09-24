@@ -53,3 +53,7 @@ print(len((1, 'a')))
 
 print(list("python"))
 print(list((1, 2, 3)))
+
+ccc = [1, 2, 3, 4]
+ddd = list(ccc)
+print(ddd)
