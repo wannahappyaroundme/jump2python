@@ -38,3 +38,11 @@ print(int('3'))
 print(int(3.4))
 print(int('11', 2))
 print(int('1A', 16))
+
+class Person: pass
+
+abc = Person()
+print(isinstance(abc, Person))
+
+dge = 3
+print(isinstance(dge, Person))
