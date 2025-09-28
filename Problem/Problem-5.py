@@ -52,6 +52,12 @@ print(list(map(lambda x: x*3, [1, 2, 3, 4])))  # [3, 6, 9, 12]
 # Q7
 
 a = [-8, 2, 7, 5, -3, 5, 0, 1]
+print(max(a) + min(a))  # -1
 a.sort()
 print(a)  # [-8, -3, 0, 1, 2, 5, 5, 7]
 print(a[0]+a[-1])  # -1
+
+
+# Q8
+
+print(round(17/3, 4))  # 5.6667
