@@ -74,3 +74,10 @@ import os
 
 import glob
 print(glob.glob('C:/doit/*.py'))
+
+# Q11
+
+import time
+print(time.strftime('%Y/%m/%d %H:%M:%S'))
+
+#
