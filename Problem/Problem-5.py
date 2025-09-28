@@ -44,3 +44,7 @@ print(list(filter(lambda x: x > 0, [1, -2, 3, -5, 8, -3])))  # [1, 3, 8]
 
 hex(234)  # '0xea'
 print(int('0xea', 16))  # 234
+
+# Q6
+
+print(list(map(lambda x: x*3, [1, 2, 3, 4])))  # [3, 6, 9, 12]
