@@ -84,3 +84,13 @@ print(time.strftime('%Y/%m/%d %H:%M:%S'))
 
 import random
 print(random.sample(range(1, 46), 6))
+
+# Q13
+
+import datetime
+sister = datetime.date(1995, 11, 20)
+youngcheol = datetime.date(1998, 10, 6)
+
+sub_day = youngcheol - sister
+
+print(sub_day.days)  # 1051
