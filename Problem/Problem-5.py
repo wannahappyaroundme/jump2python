@@ -36,3 +36,6 @@ print(cal.value)
 all([1, 2, abs(-3)-3])  # False
 chr(ord('a')) == 'a'  # True
 
+# Q4
+
+list(filter(lambda x: x > 0, [1, -2, 3, -5, 8, -3]))  # [1, 3, 8]
