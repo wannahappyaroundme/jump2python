@@ -105,4 +105,11 @@ data = sorted(data, key=operator.itemgetter(1))
 
 for i in data:
     print(i)
-    
+
+# Q15
+
+import itertools
+
+student = ['나지혜', '성성민', '윤지현', '김정숙']
+result = itertools.combinations(student, 2)
+print(list(result))
