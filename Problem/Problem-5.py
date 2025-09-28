@@ -80,4 +80,7 @@ print(glob.glob('C:/doit/*.py'))
 import time
 print(time.strftime('%Y/%m/%d %H:%M:%S'))
 
-#
+# Q12
+
+import random
+print(random.sample(range(1, 46), 6))
