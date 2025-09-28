@@ -33,9 +33,14 @@ print(cal.value)
 
 # Q3
 
-all([1, 2, abs(-3)-3])  # False
-chr(ord('a')) == 'a'  # True
+print(all([1, 2, abs(-3)-3]))  # False
+print(chr(ord('a')) == 'a')  # True
 
 # Q4
 
-list(filter(lambda x: x > 0, [1, -2, 3, -5, 8, -3]))  # [1, 3, 8]
+print(list(filter(lambda x: x > 0, [1, -2, 3, -5, 8, -3])))  # [1, 3, 8]
+
+# Q5
+
+hex(234)  # '0xea'
+print(int('0xea', 16))  # 234
