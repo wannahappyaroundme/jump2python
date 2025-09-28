@@ -61,3 +61,11 @@ print(a[0]+a[-1])  # -1
 # Q8
 
 print(round(17/3, 4))  # 5.6667
+
+# Q9
+
+import os
+
+# os.chdir('C:/doit')
+# result = os.popen('dir')
+# print(result.read())
