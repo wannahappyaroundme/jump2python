@@ -123,3 +123,30 @@ result = itertools.permutations(a, 4)
 for r in result:
     print(''.join(r))
     
+# Q17
+
+import random
+import itertools
+
+students = ['김승현', '김진호', '강춘자', '이예준', '김현주']
+todowork = ['청소', '빨래', '설거지']
+
+random.sample(students, len(students))
+result = itertools.zip_longest(students, todowork, fillvalue='쉬는날')
+for r in result:
+    print(r)
+
+# Q18
+
+import math
+
+width = 200
+height = 80
+
+square_size = math.gcd(200, 80)
+print("타일 한 선의 길이: {}".format(square_size))
+
+width_count = width/square_size
+height_count = height/square_size
+
+print("필요한 타일의 개수: {}".format(int(width_count * height_count)))
