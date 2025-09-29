@@ -113,3 +113,13 @@ import itertools
 student = ['나지혜', '성성민', '윤지현', '김정숙']
 result = itertools.combinations(student, 2)
 print(list(result))
+
+# Q16
+
+import itertools
+
+a = "abcd"
+result = itertools.permutations(a, 4)
+for r in result:
+    print(''.join(r))
+    
