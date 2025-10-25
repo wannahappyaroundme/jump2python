@@ -12,5 +12,11 @@ def elapsed(original_func):
 def myfunc():
     print("함수가 실행됩니다.")
     
-decorated_myfunc = elapsed(myfunc)
-decorated_myfunc()
+@elapsed
+def myfunc():
+    print("함수가 실행됩니다.")    
+
+# decorated_myfunc = elapsed(myfunc)
+# decorated_myfunc()
+
+myfunc()
