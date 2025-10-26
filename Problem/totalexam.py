@@ -102,29 +102,52 @@
 # f.write(str(average))
 # f.close()
 
-# 10
-# 계산기 만들기
-
-class Calculator:
-    def __init__(self, data):
-        self.data = data
+# # 10
+# # 계산기 만들기
+# class Calculator:
+#     def __init__(self, data):
+#         self.data = data
     
-    def sum(self):
-        result = 0
-        for d in self.data:
-            result += d
-        return result
+#     def sum(self):
+#         result = 0
+#         for d in self.data:
+#             result += d
+#         return result
     
-    def avg(self):
-        average = self.sum() / len(self.data)
-        return average
+#     def avg(self):
+#         average = self.sum() / len(self.data)
+#         return average
 
-cal1 = Calculator([1, 2, 3, 4, 5])
-print(cal1.sum())
-print(cal1.avg())
+# cal1 = Calculator([1, 2, 3, 4, 5])
+# print(cal1.sum())
+# print(cal1.avg())
 
-cal2 = Calculator([6, 7, 8, 9, 10])
-print(cal2.sum())
-print(cal2.avg())        
-        
-        
+# cal2 = Calculator([6, 7, 8, 9, 10])
+# print(cal2.sum())
+# print(cal2.avg())        
+
+# # 11
+# # 모듈 사용하는 방법
+# import sys
+# sys.path.append("/Users/kyungsbook/Desktop/jump2python/Problem")
+# import mymod
+
+# # 12
+# # 오류와 예외 처리, 다음 코드의 실행 겨로가를 예측하고 그 이유를 설명하시오
+
+# result = 0
+
+# try:
+#     [1, 2, 3][3]
+#     "a" + 1
+#     4 / 0
+# except TypeError:
+#     result += 1
+# except ZeroDivisionError:
+#     result += 2
+# except IndexError:
+#     result += 3
+# finally:
+#     result += 4
+    
+# print(result)
