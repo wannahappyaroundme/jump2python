@@ -71,5 +71,33 @@ gugudan = int(input("구구단을 출력할 숫자를 입력하세요(2~9):"))
 for i in range(1,10):
     dan = i * gugudan
     print(dan, end=" ")
+print()
 
 # 8
+# 파일 읽어서 역순으로 정하기
+f = open('/Users/kyungsbook/Desktop/jump2python/Problem/abc.txt', 'r')
+lines = f.readlines()
+f.close()
+
+lines.reverse()
+
+f = open('/Users/kyungsbook/Desktop/jump2python/Problem/abc.txt', 'w')
+for line in lines:
+    line = line.strip()
+    f.write(line)
+    f.write("\n")
+f.close()
+
+# 9
+f = open('/Users/kyungsbook/Desktop/jump2python/Problem/sample.txt', 'r')
+lines = f.readlines()
+f.close()
+
+total = 0
+for line in lines:
+    total += int(line)
+average = total /len(lines)
+
+f = open('/Users/kyungsbook/Desktop/jump2python/Problem/result.txt', "w")
+f.write(str(average))
+f.close()
